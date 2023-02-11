@@ -29,4 +29,3 @@ Developer setup instructions are in [development.md](./development.md)
 * [Combining/concatenating documents](https://github.com/OliverBalfour/obsidian-pandoc/wiki/Combining-Documents)
 * [Troubleshooting](https://github.com/OliverBalfour/obsidian-pandoc/wiki/Troubleshooting)
 * [Installation](https://github.com/OliverBalfour/obsidian-pandoc/wiki/Installation)
-*
