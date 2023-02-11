@@ -41,7 +41,7 @@ export default class PandocPlugin extends Plugin {
 
             const name = 'Export as ' + prettyName;
             this.addCommand({
-                id: 'pandoc-export-' + pandocFormat, name,
+                id: 'pandoc-export-' + extension, name,
                 checkCallback: (checking: boolean) => {
                     if (!this.app.workspace.activeLeaf) return false;
                     if (!this.currentFileCanBeExported(pandocFormat as OutputFormat)) return false;
@@ -98,7 +98,7 @@ export default class PandocPlugin extends Plugin {
             outputFile = path.join(this.settings.outputFolder, path.basename(outputFile));
         }
         const view = this.app.workspace.getActiveViewOfType(MarkdownView);
-        
+
         try {
             let error, command;
 
