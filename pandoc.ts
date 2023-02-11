@@ -52,6 +52,7 @@ export const outputFormats = [
     ['PDF (via LaTeX)', 'pdf', 'pdf', 'PDF'],
     ['Reveal.js Slides', 'revealjs', 'reveal.html', 'Reveal.js'],
     ['Beamer Slides', 'beamer', 'beamer.tex', 'Beamer'],
+		['Beamer PDF Presentation', 'beamer', 'pdf', 'Presentation'],
     ['reStructured Text (RST)', 'rst', 'rst', 'RST'],
     ['DokuWiki', 'dokuwiki', 'txt', 'DokuWiki'],
     ['MediaWiki', 'mediawiki', 'mediawiki', 'MediaWiki'],
